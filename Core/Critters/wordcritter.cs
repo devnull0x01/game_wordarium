@@ -15,7 +15,7 @@ public class WordCritter
         Y = y;
     }
     
-    public void Move(Random rng, int aquariumWidth, int aquariumHeight)
+    public void Move(Random rng, int borderWidth, int borderHeight)
     {
         //Console.Write($"{Name} is moving");
         int movementX = rng.Next(-1, 2 );
@@ -24,8 +24,8 @@ public class WordCritter
         X += movementX;
         Y += movementY;
         
-        X = Math.Clamp(X, 0, aquariumWidth - 1);
-        Y = Math.Clamp(Y, 0, aquariumHeight - 1);
+        X = Math.Clamp(X, 0, borderWidth - 1);
+        Y = Math.Clamp(Y, 0, borderHeight - 1);
     }
 
     public void Draw()

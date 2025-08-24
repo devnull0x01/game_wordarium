@@ -5,6 +5,7 @@ namespace AquariumApp;
 using Wordarium.Core.Critters;
 using Wordarium.Core.Aquarium;
 using Wordarium.Core.Water;
+using Wordarium.Core.Aquarium;
 
 class Program
 {
@@ -13,15 +14,17 @@ class Program
         // create cursorless environment
         Console.CursorVisible = false;
         
-        // define the tank
+        // create aquarium
         int aquariumWidth = Console.WindowWidth;
         int aquariumHeight = Console.WindowHeight;
+        //Console.WriteLine($"console width: {Console.WindowWidth}, height: {Console.WindowHeight}");
+        Aquarium aquarium = new Aquarium(aquariumWidth, aquariumHeight);
         
-        // define the water
+        
+        // create water
         Water water = new Water();
-        water.DrawWater();
         
-        // create a random generator for movement
+        // erratic fish movement
         Random rng = new Random();
         
         // create a critter
@@ -33,12 +36,23 @@ class Program
         while (true)
         {
             Console.Clear();
-            critter.Move(rng, aquariumWidth, aquariumHeight);
+            
+            // draw the aquarium
+            aquarium.DrawAquarium();
+            
+            // draw the water
+            water.DrawWater();
+            
+            // draw the critters
+            critter.Move(rng, aquarium.InnerWidth, aquarium.InnerHeight);
+            critter2.Move(rng, aquarium.InnerWidth, aquarium.InnerHeight);
+            
             critter.Draw();
-            critter2.Move(rng, aquariumWidth, aquariumHeight);
             critter2.Draw();
             
             Thread.Sleep(200);
+            
+            //Console.ResetColor();
             
             // TODO: COULDN'T GET TO WORK
             //var key = Console.ReadKey(true).Key;

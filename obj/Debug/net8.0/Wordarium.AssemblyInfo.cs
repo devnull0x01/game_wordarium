@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wordarium")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dadddc69d641b1a343e68e1319fbb3ad7f773025")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae4b35f9368c012056773a460e3360a12865f71f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wordarium")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wordarium")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
