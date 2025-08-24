@@ -12,3 +12,4 @@
 /home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.pdb
 /home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.genruntimeconfig.cache
 /home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/ref/Wordarium.dll
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.sourcelink.json
