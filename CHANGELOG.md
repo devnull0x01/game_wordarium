@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org) and is formatted per [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [v0.6.0] - 2025-08-24
+### Added
+- Inner border drawn inside the aquarium
+
 ## [v0.5.0] - 2025-08-24
 ### Added
 - Two fish rendered in the console.
