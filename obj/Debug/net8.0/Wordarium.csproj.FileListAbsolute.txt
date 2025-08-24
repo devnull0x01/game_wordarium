@@ -1,0 +1,14 @@
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.GeneratedMSBuildEditorConfig.editorconfig
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.AssemblyInfoInputs.cache
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.AssemblyInfo.cs
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.csproj.CoreCompileInputs.cache
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/bin/Debug/net8.0/Wordarium
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/bin/Debug/net8.0/Wordarium.deps.json
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/bin/Debug/net8.0/Wordarium.runtimeconfig.json
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/bin/Debug/net8.0/Wordarium.dll
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/bin/Debug/net8.0/Wordarium.pdb
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.dll
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/refint/Wordarium.dll
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.pdb
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/Wordarium.genruntimeconfig.cache
+/home/kristypolymath/public_html/deskdev/csharp/rider/Wordarium/obj/Debug/net8.0/ref/Wordarium.dll
