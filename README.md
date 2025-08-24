@@ -1,0 +1,1 @@
+Wordarium is my idea of words presenting the things you would see in an aquarium.  These words live, they move, they eat, they grow, they attack, they may even develop personalities / trends, and they die.  
