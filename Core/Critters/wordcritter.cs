@@ -24,13 +24,8 @@ public class WordCritter
         X += movementX;
         Y += movementY;
         
-        //if (X < 0 || X > aquariumWidth) X = 0;
-        //if (movementY < 0 || movementY > aquariumHeight) movementY = 0;
-        
-        
         X = Math.Clamp(X, 0, aquariumWidth - 1);
         Y = Math.Clamp(Y, 0, aquariumHeight - 1);
-        
     }
 
     public void Draw()
